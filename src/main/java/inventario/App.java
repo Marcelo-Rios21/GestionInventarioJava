@@ -1,13 +1,9 @@
 package inventario;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import inventario.ui.MenuPrincipal;
+
+public class App {
+    public static void main( String[] args ) {
+        MenuPrincipal.mostrar();
     }
 }
